@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/pay_bill_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Your Bills"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/grid1"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/colorLightGrey">
+
+                <ImageView
+                    android:src="@drawable/payor_icon1"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/electricity_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/electricity_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="ELECTRICITY"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/grid2"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/grid1"
+                android:layout_toEndOf="@+id/grid1"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+                <ImageView
+                    android:src="@drawable/payor_icon2"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/water_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/water_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="WATER"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/grid3"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/grid2"
+                android:layout_toEndOf="@+id/grid2"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+
+                <ImageView
+                    android:src="@drawable/payor_icon3"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/mobile_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/mobile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="MOBILE"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/grid4"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/grid1"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+
+                <ImageView
+                    android:src="@drawable/payor_icon4"
+                    android:layout_width="27dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/landline_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/landline_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="LANDLINE"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/grid5"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/grid4"
+                android:layout_toEndOf="@+id/grid4"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+                <ImageView
+                    android:src="@drawable/payor_icon5"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/cable_tv_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/cable_tv_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="CABLE TV"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/grid5"
+                android:layout_toEndOf="@+id/grid5"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+                <ImageView
+                    android:src="@drawable/payor_icon6"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/internet_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/internet_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="INTERNET"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/purchase_tickets_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase Tickets"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+            <RelativeLayout
+                android:id="@+id/grid7"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="5dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/colorLightGrey">
+                <ImageView
+                    android:src="@drawable/payor_icon7"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/movie_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/movie_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="MOVIE"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/grid8"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/grid7"
+                android:layout_toEndOf="@+id/grid7"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+                <ImageView
+                    android:src="@drawable/payor_icon8"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/event_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/event_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="EVENT"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/grid8"
+                android:layout_toEndOf="@+id/grid8"
+                android:layout_marginStart="5dp"
+                android:background="@color/colorLightGrey">
+                <ImageView
+                    android:src="@drawable/payor_icon9"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/sport_text"
+                    android:layout_marginBottom="0dp"/>
+
+                <TextView
+                    android:id="@+id/sport_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:text="SPORT"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorLessBlack"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
