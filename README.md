@@ -1,2 +1,2 @@
 # Payor
-Just replicating a UI I found interesting. 
+Replicatd an app UI I found interesting. 
