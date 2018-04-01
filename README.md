@@ -4,5 +4,5 @@ Replicated an app UI I found interesting from scratch using icons I created insi
 ![payor screenshot](media/Payor.jpg)
 
 ### Icons 
-You can find the icons in [media](media/icons.svg) folder. You can use it freely under the same license of the repository.
+You can find the icons in [media](media/icons.svg) folder. You can use it freely under the same license as the repository.
 
